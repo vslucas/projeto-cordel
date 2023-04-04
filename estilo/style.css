@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+:root {
+    --fonte-titulo: 'Passion One', cursive;
+    --fonte-poesia: 'Sriracha', cursive;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 35px;
+    margin: 0px;
+    font-family: var(--fonte-titulo);
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 35px;
+    font-size: 1.3em;
+}
+
+header a {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 5px 30px;
+}
+
+section pre {
+    white-space: pre-line;
+    font-family: var(--fonte-poesia);
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+#joaninha {
+    background: url('../imagens/background001.jpg') no-repeat fixed right center /cover;
+}
+
+#livro {
+    background: url('../imagens/background002.jpg') no-repeat fixed right center /cover;
+}
+
+.fundo {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    padding: 10px
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0px;
+    font-size: 1.1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
